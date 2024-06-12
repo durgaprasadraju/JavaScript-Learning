@@ -22,3 +22,8 @@ let v = 42,c =7;
 let divide = v / c;
 console.log(divide);
 
+//comparision >
+
+let m = 7,d = 9;
+let check = m < d;
+console.log(check);
