@@ -11,7 +11,7 @@ async function main(){
     const question = await askQuestion('do you want to tadays know date');
     
 let options = { 
-    timeZone: 'Asia/Kolkata', 
+    timeZone: 'America/New_York', 
     year: 'numeric', 
     month: 'long', 
     day: 'numeric', 
@@ -21,7 +21,8 @@ let options = {
     hour12: true 
   };
   let now = new Date() 
+  console.log(now)
    let formattedDate = now.toLocaleString('en-IN', options);
 console.log(formattedDate)
-}
+rl.close()}
 main()
